@@ -3,7 +3,9 @@
 # Prerequisits
 
 1.- Docker
+
 2.- K8s
+
 3.- Ingress Controller
 
 Note: I usually installed INGRESS using HELM
