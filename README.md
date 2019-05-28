@@ -1,7 +1,5 @@
 # baremetal-ingress-example
 
-# WORK IN PROGRESS - PLEASE DO NOT USE YET.
-
 # Prerequisits
 
 1.- Docker
@@ -11,8 +9,12 @@
 3.- Ingress Controller
 
 Note: I usually installed INGRESS using HELM
+        
+        Helm Install: https://github.com/helm/helm/blob/master/docs/install.md
+        
+        Ingress Install: https://github.com/kubernetes/ingress-nginx/blob/master/docs/deploy/index.md#using-helm
 
-# Step:
+# Steps:
 
 1.- Create deployment nginx-example/nginx-deployment.yml
 
