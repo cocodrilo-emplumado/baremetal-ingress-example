@@ -1,0 +1,12 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: nginx-ingress
+spec:
+  rules:
+    - host: kubernetes.max.com
+      http:
+        paths:
+          - backend:
+              serviceName: nginx-ingress
+              servicePort: 80
