@@ -4,7 +4,7 @@ metadata:
   name: nginx-ingress
 spec:
   rules:
-    - host: <your-host-name>
+    - host: <your-hostname>
       http:
         paths:
           - backend:
