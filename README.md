@@ -1,2 +1,3 @@
 # baremetal-ingress-example
-This is my own Ingress example
+
+Please correct as need it, I'm not an expert just trying to learn some cool stuffs
