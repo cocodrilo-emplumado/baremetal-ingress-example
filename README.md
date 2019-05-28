@@ -6,7 +6,7 @@
 2.- K8s
 3.- Ingress Controller
 
-# Note: I usually installed INGRESS using HELM
+Note: I usually installed INGRESS using HELM
 
 # Step:
 
