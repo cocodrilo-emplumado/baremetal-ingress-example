@@ -22,8 +22,8 @@ Note: I usually installed INGRESS using HELM
 
 3.- Create ingress resource nginx-example/nginx-ingress.yml
 
-        Edit the value of <your-hostname> with your hostname, Example: cocodrilo-emplumado.com
-
+        Edit the value of <your-hostname> inside the file with your hostname
+        
         kubectl create -f nginx-example/nginx-ingress.yml
 
 4.- Get your bare metal IP address
