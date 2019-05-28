@@ -1,5 +1,7 @@
 # baremetal-ingress-example
 
+# WORK IN PROGRESS - PLEASE DO NOT USE YET.
+
 # Prerequisits
 
 1.- Docker
