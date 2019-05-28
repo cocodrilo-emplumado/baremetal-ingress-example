@@ -28,13 +28,13 @@ Note: I usually installed INGRESS using HELM
 
 4.- Get your bare metal IP address
 
-       Example if you are in linux - ifconfig eth0
+       Example: ifconfig eth0
 
 5.- Edit NGINX Service
 
         kubectl edit svc nginx-ingress
 
-   Add the following line:
+   Add the following line below clusterIPs
 
         externalIPs:
         - <your-ip-address>
